@@ -1,0 +1,89 @@
+html,
+body {
+    background-color: rgb(259, 154, 154);
+}
+
+header img {
+    width: 100%;
+}
+
+main {
+    min-width: 20rem;
+}
+
+article.recipes {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 50rem;
+    height: 100%;
+}
+
+h1 {
+    color: rgb(142, 15, 0);
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+h2,
+.num-of-portions {
+    font-size: 1.3rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.3rem;
+}
+
+hgroup>h2,
+.num-of-portions {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+p.intro {
+    background-color: rgb(230, 230, 230);
+    padding: 0.5rem;
+}
+
+section.article-content {
+    margin: 0 3rem;
+}
+
+
+.article-content .gallery {
+    display: -webkit-flex;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+p.gallery img {
+    flex: 1 0 calc(50% - 0.5rem);
+    max-width: calc(50% - 0.5rem);
+    height: auto;
+}
+
+@media (max-width: 35rem) {
+    .article-content .gallery {
+        flex-direction: column;
+
+    }
+
+    p.gallery img {
+        flex: 1 0 100%;
+        max-width: 100%;
+
+    }
+}
+
+@media (max-width: 50rem) {
+    p.gallery img {
+        flex: 1 0 100%;
+        max-width: 100%;
+
+    }
+}
+
+ul.ingredients li,
+ol.instructions li {
+    margin-left: 1.5rem;
+}
