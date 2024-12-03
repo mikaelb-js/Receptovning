@@ -1,5 +1,5 @@
-# Project Title
-Receptövning
+# Receptövning
+
 ## Description
 
 Basic HTML file with a marked up article about a pancake recipe. 
