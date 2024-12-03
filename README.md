@@ -14,8 +14,8 @@ In an executable folder of your web server, or anywhere on your disk.
 
 ### Executing program
 
-Load the url of the page in your web server's hierarchy or just open directly in any browser.
-Or execute from https://raw.githack.com/mikaelb-js/Receptovning/main/index.html
+Load the url of the page in your web server's hierarchy or just open the index.html file directly from the folder in any browser.
+
 
 ## Authors
 
