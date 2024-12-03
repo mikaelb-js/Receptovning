@@ -14,7 +14,7 @@ In an executable folder of your web server, or anywhere on your disk.
 
 ### Executing program
 
-Load the url of the page in your web server's hierarchy or just open the index.html file directly from the folder in any browser.
+Load the url of the page in your web server's hierarchy, for example in an IDE environment like VS Code.
 
 
 ## Authors
