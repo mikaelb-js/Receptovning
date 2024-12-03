@@ -25,17 +25,14 @@ h1 {
     margin-bottom: 1rem;
 }
 
-h2,
-.num-of-portions {
+h2 {
     font-size: 1.3rem;
     margin-top: 1.4rem;
     margin-bottom: 0.3rem;
 }
 
-hgroup>h2,
 .num-of-portions {
-    display: inline-block;
-    vertical-align: baseline;
+    font-weight: normal;
 }
 
 p.intro {
